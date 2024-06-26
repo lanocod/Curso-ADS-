@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário html</title>
+
+  <style>
+    input{
+      display: block;
+      margin-bottom: 10PX;
+      text-align: center;
+    }
+    .checagem input{
+      display: inline-block;
+    }
+    .checagem label{
+      display: block;
+    }
+    textarea{
+      display: block;
+      min-height: 80px;
+    }
+
+    select{
+      display: block;
+      margin: ;
+    }
+  </style>
+
+</head>
+<body>
+    <h1>Aprendendo sobre Formulários com html</h1>
+    <form method="post" action="">
+      <label for="">Observações:</label>
+      <textarea name="obs" id="" placeholder="Escreva aqui suas observações"></textarea>
+
+      <select name="Cursos" id="" required>
+      <!--para nao vir marcada--> <option value="">--Selecione--</option>
+        <option value="">HTML</option>
+        <option value="">CSS</option>
+        <option value="">JavaScript</option>
+        <option value="">PHP</option>
+        <option value="">Photoshop</option>
+        <option value="">Ilustrattor</option>
+      </select>
+
+        <label for="nome">Seu nome:</label> 
+        <input type="text" name="Nome" id="nome" placeholder="Coloque seu nome aqui..." maxlength="5" minlength="3" required>
+
+        <label for="email">Seu email:</label>
+        <input type="email" name="email" id="email" placeholder="Coloque seu email aqui..." required>
+
+        <label for="number">Sua idade:</label>
+        <input type="number" name="email" id="number" placeholder="Coloque sua idade aqui..." required max="10" min="1">
+        <input type="date" name="data">
+        
+        <label for="tel">Coloque seu telefone:</label>
+        <input type="tel" name="telefone" placeholder="Telefone/wpp">
+        <div class="checagem">
+            <h3>Quais linguagens voce domina?</h3>
+<!--para vir marcado = checked-->
+            <label for="hmtm">
+              <input type="checkbox" name="Html" id="hmtm" checked>HTML</label>
+
+            <label for="CSS">
+              <input type="checkbox" name="CSS" id="CSS" checked>CSS</label>
+
+            <label for="JavaScript">
+              <input type="checkbox" name="JavaScript" id="JavaScript" checked>JavaScript</label>
+        </div>
+
+        <div class="checagem"> <!--name tem que ser o mesmo. Só pode marcar 1 opção -->
+            <h3>selecione uma opção:</h3>
+            <label for="Masculino">
+              <input type="radio" name="genero" value="m" id="Masculino">
+              Masculino
+            </label>
+            <label for="Feminino">
+              <input type="radio" name="genero" value="f" id="Feminino">
+              Feminino
+            </label>
+        </div>
+
+        <input type="url" name="site" placeholder="LinkdIn">
+
+        <input type="search" name="busca" placeholder="Busque aqui">
+
+        <input type="file" name="arquivo" multiple>
+
+        <input type="password" name="senha" placeholder="coloque sua senha">
+
+        <input type="color" name="cor">
+
+        <input type="time" name="tempo">
+        <input type="datetime-local" name="data-hora">
+        <input type="month" name="mes">
+        <input type="week" name="semana">
+        <input type="range" name="escala" step="2" max="10"  min="0">
+
+        
+        <!--label = colocar nome no formulário, "título"-->
+        <!--input = abrir o campo para colocar os dados-->
+        <!--required torna o campo obrigatório-->
+        <!-- BOTÕES-->
+         <!--Value = nome ao botão-->
+         <!--maxlenght = máximo caracter-->
+        <input type="image" src="botao.png.png" name="imagem">
+        <input type="reset" name="limpar" value="Apagar campos">
+        <input type="submit" name="enviar" value="Cadastrar">
+        <button>Enviar</button>
+
+
+        
+  </form>
+</body>
+</html>
