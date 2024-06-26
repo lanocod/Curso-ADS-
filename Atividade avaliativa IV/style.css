@@ -71,9 +71,9 @@ h1{
   text-align: auto;
   
 }
-.foto{
-  border-radius: 500px;
-  
+.img{
+  border-radius: 100px;
+  display: inline-block;  
 }
 .prog{
   color: #f3ab49;
@@ -95,10 +95,6 @@ h1{
   white-space: nowrap;
   display: inline-block;
  
-}
-.imagem{
-  display: inline-block;  
-  
 }
 .preparo{
   display: inline-block;
