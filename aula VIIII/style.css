@@ -1,0 +1,80 @@
+body{
+  font-family: verdana, sans-serif;
+  background-color: #444;
+}
+
+.container{
+  background-color: #fff;
+  width: 80%;
+  margin: 100px auto;
+  min-height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bloco1{
+  /* STATIC (toda tag vem assim só reconhece EIXO X E Y)- ASBOLUTE - RELATIVE*/   
+  position: absolute; /*cria o eixo Z , profundidade*/
+  /*right - left - top - bottom*/
+  top: 0px; 
+  left: 0px;
+  z-index: 2;
+}
+.bloco2{
+  position: absolute;   
+  top: 20px; 
+  left: 80px;
+  z-index: 1;
+}
+
+.bloco3{
+  position: absolute;   
+  top: 40px; 
+  left: 160px;
+  z-index: 4;
+}
+
+.bloco4{
+  position: absolute;   
+  top: 60px; 
+  left: 240px;
+  z-index: 3;
+}
+.col{
+  background-color: #fff;
+  border: solid 1px #999;
+  width: 200px;
+  margin: 30px;
+  text-align: center;
+  padding: 80px 0px;
+  float: left;
+  box-shadow: /*inset*/  3px 4px 11px 0px #444;
+  /* desloc-x , desloc-y, blur(desfocar), estensão tmanho e cor*/
+  border-radius: 10px;
+  }
+
+  .fale {
+    width: 150px;
+    background-color: #18C24C;
+    border: solid 1px #fff;
+    box-shadow: 0 0 4px #333;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    position: fixed; /*top, bottom, left, right*/
+    right: 10px;
+    top: 10px;
+    z-index: 99;
+  }
+
+  .fale a {
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #333; /*desloc-x, desloc-y, blur e cor*/
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    transition: 1s;
+  }

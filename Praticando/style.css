@@ -1,0 +1,50 @@
+.container{
+  overflow: hidden;
+  display: block;
+  }
+
+.coluna{
+  float: left;
+  border: 2px solid #A18268;
+  height: 250px;
+  width: 200px;
+  margin: 10px;
+  box-shadow: 1px 1px 3px black;
+ }
+
+.container2{
+  overflow: hidden;
+  display: block;
+}
+
+.coluna2{
+  float: left;
+  height: 350px;
+  width: 220px;
+  border: 2px solid #aaa;
+  margin: 5px 6px;
+}
+p{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 10px;
+  font-style: red;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25d365; /* Verde do WhatsApp */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.whatsapp-button i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+

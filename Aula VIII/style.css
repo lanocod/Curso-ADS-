@@ -1,0 +1,72 @@
+body{
+  font-family:  Arial, Helvetica, sans-serif;
+}
+.contato{
+  text-decoration: none;
+  font-size: 24px;
+  background-color: #444;
+  color: whitesmoke;
+  width: 400px; /* Não aumenta o tamanho porque não é block ou inlineblock*/
+  margin-bottom: 40px;/* Não funciona porque não é block ou inlineblock*/
+  padding-bottom: 40px;
+  display: block; /*testar tirando o block */
+  /* block - inline - inline-block - none */
+}
+/* solid - dashed - dotted - double - groove - ridge - inset - outset*/
+
+.bloco1 {
+  font-size: 98px;
+  border: solid 20px #444;
+  margin-bottom: 25px;
+  }
+.bloco2 {
+  font-size: 98px;
+  border: dashed 15px #f60;
+  width: 200px;
+  margin: 40px 50px;
+  padding: 40px 50px;
+}
+
+.bloco3 {
+  font-size: 98px;
+  border: inset 20px #444;
+  margin-bottom: 25px;
+  width: 200px;
+}
+
+.coluna{
+  /* none - left - right*/
+  float: left;
+  width: 350px;
+  border: solid 1px #999;
+  margin: 40px 20px;
+  box-shadow: 1px 1px 5px #999;
+  border-bottom: solid 3px #3b7cd2;
+}
+.coluna .info{
+  padding: 0px 30px 40px 30px;
+}
+
+.info h4{
+  margin: 0px;
+  color:#3b7cd2;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.info h2{
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.info p {
+  font-size: 16px;
+}
+.container {
+  /*background-color: #333;*/
+  overflow: hidden;
+  width: 1200px;
+  margin: 80px auto;
+}
+

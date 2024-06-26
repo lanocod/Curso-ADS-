@@ -1,0 +1,48 @@
+	body{
+	background-image: url(imagens/universo1.jpeg);
+	background-repeat: repeat ;/*repeat - repeatx - repeaty - no-repet*/
+	background-position: center top; /*top-bottom-left-right-center*/
+/*sempre na horizontal e depois na vertical = informação sobre posição*/
+	/*background-position: 70% 80px;**/
+	background-attachment: scroll; /**scroll - fixed**/
+	/*background-size: 100% auto;*/
+	background-size: cover;
+}
+
+
+h1{
+	text-align: center;
+	font-size: 52px;
+	color: white;
+	background-color: #f60;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+.conteudo{
+	text-align: center;
+	background-color: #444;
+	background-image: url(imagens/ufo.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100px auto;
+	color: #fff;
+	width: 80%;
+	height: 2000px;
+	
+	/* margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 100px;*/
+	/* para abreviar tudo posso usar somente margin, sentido horário (top, right, bottom e left)*/
+	
+	/*margin: 100px 40px 250px 80px;*/
+	/*pode-se declarar somente um (mesmo para todos) ou dois (dir. e esq. e cima e baixo)
+	/*margin: 110px (mesmo para todos) e 110px (cima e baixo) 50px(lado e direito)*/
+	margin: auto ;
+
+
+
+}
+.conteudo h2{
+	background-color: #f60;
+	width: 60%;
+}

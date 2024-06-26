@@ -1,0 +1,39 @@
+body {
+	font-family: verdana, sans-serif;
+}
+
+p {
+	font-size: 18px;
+}
+/** . (ponto) é como chama a classe */ 
+.titulo {
+	/* color: blue; */
+	/*color: rgb(150, 160, 170, 1.0);*/
+	color: #ADD8E6;
+	word-spacing: -5px;
+	text-align: center;
+}
+.info {
+	text-align: justify;
+	/* left - right - center - justify*/
+}
+.info img{
+	vertical-align: super ;
+	/*bottom - top - middle - sub - super*/
+}
+.abaixo span{
+	vertical-align: sub;
+	font-size: 13px;
+}
+.acima span{
+	vertical-align: super;
+	font-size: 13px;
+}
+.tarefas {
+	list-style-position: inside;  /*inside - outside*/
+	list-style-type: square;  /*circle - disque - square*/
+	list-style-image: url(/*nome do arquivo dentro da pasta.*/);
+}
+.corrida {
+	list-style-type: lower-greek;  /*lower-roman, upper-roman, lower-alpha */
+}

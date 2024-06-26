@@ -1,0 +1,30 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font: 100px;
+}
+
+.cabeçalho{
+  display: inline;
+  overflow: hidden;
+  height: 90px;
+}
+
+.links{
+   float: right;
+  }
+
+.logo{
+  float: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+ }
+
+.container{
+  height: 250px;
+  border:  2px transparent;
+  background-color: bisque;
+}

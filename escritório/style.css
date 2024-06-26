@@ -1,0 +1,42 @@
+
+
+body { background-image: linear-gradient(to right, #fff, #204051 );
+	font-family: Arial, Helvetica, serif;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+img {
+	width: 50% ;
+	margin-left: 400px;
+}
+
+#destaque{
+	position: center;
+}
+
+a {
+	color: black;
+	position: center;
+}
+
+.bemvindo: {
+	height: ;
+}
+
+#botoes{
+	margin: 100px 100px
+}
+#empresarial{
+	background-color: red;
+	border
+}

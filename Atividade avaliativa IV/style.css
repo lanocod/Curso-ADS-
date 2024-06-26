@@ -1,0 +1,106 @@
+/*#9E31F5 e #f3ab49 */
+@font-face {
+  font-family: Inter;
+  src: url(inter.ttf) format(truetype);
+}
+
+body {
+background-image: linear-gradient(#9e31f5 , #000);
+height: 98vh;
+}
+.l1{
+  background-color: white;
+ }
+.l2{
+  background-color: white;
+  word-spacing: 10px;
+}
+.l3{
+  background-color: white;
+}
+.l4{
+  background-color: white;
+
+}
+.listas{
+  margin-bottom: 5px;
+  height: 50px;
+  width: 380px;
+  border-radius: 50px;
+  text-align: center;
+  color: #330D52;
+  padding-top: 30px;
+}
+
+p{
+  font-family: inter, Verdana, Geneva, Tahoma, sans-serif;
+}
+p a{
+  text-decoration: none;
+}
+p:hover a{
+  text-decoration:underline;
+}
+h1{
+  margin: center;
+  color: #fff;
+ }
+.agosto{
+  background-color: #f3ab49;
+  font-size: 50px;
+  color: #fff;
+  border-radius: 50px 5px 50px 5px;
+  width: 380px;
+  text-align: center;
+  box-shadow: 1px 2px 3px black;
+  text-align: center;
+}
+.titulo{
+  font-family:'roboto', 'arial', 'sans-serif';
+  font-size:20px;
+  letter-spacing: -1px;
+  text-align: justify;
+}
+.texto{
+  float: left;
+  width: 500px;
+  text-align: auto;
+  
+}
+.foto{
+  border-radius: 500px;
+  
+}
+.prog{
+  color: #f3ab49;
+}
+.container{
+
+ background-color:lightslategrey;
+ width: 800px;
+ height: 600px;
+ margin: auto;
+overflow: hidden;
+}
+.confira{
+  text-align: center;
+
+}
+.data{
+  white-space: nowrap;
+  display: inline-block;
+ 
+}
+.imagem{
+display: inline-block;
+}
+.preparo{
+  display: inline-block;
+}
+.text{
+  position: relative;
+  bottom: 50px; 
+  left: 100px;
+  
+}
+

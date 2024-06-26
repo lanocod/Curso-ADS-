@@ -1,0 +1,80 @@
+body{
+	font-family: verdana, sans-serif;
+	background-color: #fafafa;
+	margin: 0;
+}
+.topo{
+	background-color: #fff;
+	box-shadow: 0 4px 8px #444;
+	padding: 20px 40px;
+	overflow: hidden;
+	z-index: 1;
+	position: relative;
+}
+.logo{
+	font-size: 32px;
+	font-weight: bold;
+	color: #95e05f;
+	float: left;
+}
+.menu{
+	float: right;
+}
+.menu li{
+	list-style: none;
+	display: inline-block;
+}
+.menu li a{
+	color: #404040;
+	text-decoration: none;
+	padding: 5px 20px;
+	border: solid 2px transparent;
+}
+.menu li a:hover{
+	color: #95e05f;
+	background-color: #404040;
+	border-radius: 5px;
+	border: solid 2px #95e05f;
+}
+.banner{
+	height: 250px;
+	/*background-color: #ad26b6;*/
+	/*background-image: url(imagens/brabo.png);
+	background-repeat: no-repeat;
+	background-position: center center;*/
+	/*background: url(imagens/brabo.png) no-repeat center center, #ad26b6;*/
+	background: url(imagens/brabo.png) no-repeat center center, 
+				linear-gradient(to bottom, #870c79 0%, #112cb8 100%);
+}
+.banner:hover{
+	background: url(imagens/feliz.png) no-repeat center center, #95e05f;
+}
+
+/* Overflows */
+.container{
+	border: solid 2px #444;
+	padding: 100px 25px;
+	overflow: hidden;
+	margin-top: 100px;
+}
+.col{
+	border: solid 1px #444;
+	width: 200px;
+	height: 120px;
+	margin: 10px;
+	float: left;
+}
+/* visible - hidden - scroll - auto */
+.bloco1{
+	overflow: hidden;
+}
+.bloco2{
+	/*overflow: scroll;*/
+	/*overflow-x: scroll;*/
+	overflow-y: scroll;
+	height: 250px;
+}
+.bloco3{
+	overflow: auto;
+	height: 250px;
+}
