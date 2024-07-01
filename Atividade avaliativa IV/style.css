@@ -6,7 +6,7 @@
 
 body {
 background-image: linear-gradient(#9e31f5 , #000);
-height: 98vh;
+background-repeat: no-repeat;
 }
 .text1{
   text-align: center;
@@ -17,7 +17,7 @@ height: 98vh;
  }
 .l2{
   background-color: white;
-  word-spacing: 10px;
+ 
 }
 .l3{
   background-color: white;
@@ -38,6 +38,7 @@ height: 98vh;
 
 p{
   font-family: inter, Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
 }
 p a{
   text-decoration: none;
@@ -69,40 +70,51 @@ h1{
   float: left;
   width: 500px;
   text-align: auto;
-  
+  display: inline-block;
+  background-color: #aaa;
 }
 .img{
-  border-radius: 100px;
   display: inline-block;  
+  border-radius: 100%;
+  margin-top: 110px;
+  margin-left: 100px;
+  box-shadow: -7px -3px violet;
 }
+.imagem{
+  margin:  auto;
+}
+
 .prog{
   color: #f3ab49;
 }
 .container{
-
   background-color:lightslategrey;
-  width: 800px;
-  height: 600px;
+  height: 98vh;
   margin: auto;
   overflow: hidden;
-
 }
 .confira{
   text-align: center;
   width: 380px;
 }
-.data{
-  white-space: nowrap;
+/*.data{
   display: inline-block;
- 
-}
+  border-right: 0.1px solid black;
+}*/
+
 .preparo{
   display: inline-block;
 }
-.text{
+/*.text{
+  display: inline-block;
   position: relative;
   bottom: 50px; 
   left: 100px;
-  width: 380px;
-}
+  width: 250px;
+}*/
+.calendario{
+  width: 15px;
+  display: inline-block;
+  padding: 0px;
 
+}
