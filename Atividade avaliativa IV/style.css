@@ -68,27 +68,29 @@ h1{
 }
 .texto{
   float: left;
-  width: 500px;
+  width: 400px;
   text-align: auto;
   display: inline-block;
-  background-color: #aaa;
+  margin-top: 80px;
+  margin-left: 80px;
 }
 .img{
   display: inline-block;  
-  border-radius: 100%;
+  border-radius: 80%;
+  height: 300px;
   margin-top: 110px;
-  margin-left: 100px;
+  margin-left: 20px;
   box-shadow: -7px -3px violet;
 }
 .imagem{
   margin:  auto;
+  width: 600px;
 }
 
 .prog{
   color: #f3ab49;
 }
 .container{
-  background-color:lightslategrey;
   height: 98vh;
   margin: auto;
   overflow: hidden;
