@@ -11,36 +11,139 @@
 */
 body{
   font-family: roboto;
-}
-header{
-  margin: 0px;
-  padding: 10px;
-  background-image: linear-gradient(to bottom,  #045eb7, #fff );
-}
-.cabeçalho{
-
+  background-color: rgb(195, 194, 194)
+  /*background-image: linear-gradient(138deg, rgba(20,92,164,1) 0%, rgba(1,1,1,1) 58%, rgba(0,0,0,1) 71%, rgba(20,92,164,1) 94%);
+  background-attachment: fixed;*/
 
 }
-.logo{
-  width: 100px;
-  margin: 10px;
-  display: block;
+header{ 
+  padding: 0px;
+  border-radius: 5px;
+  background-color: #0000004e;
+  height: 80px;
+  width: 1100px;
+  margin: 20px auto 0px auto;
+  /*background-image: linear-gradient(to right,  #045eb7b9, #000000be );*/
+}
+.cabeçalho{ /*tag do cabeçalho*/
+  width: 900px;
   margin: 0 auto;
-  margin-bottom: 20px;
 }
-header a{
+
+.listas{ /*tag de cada link do cabeçalho*/
+  margin-left: 70px;
+}
+.logo{ /*tag imagem do cabeçaho*/
+  width: 40px;
+  display: inline-block;
+  margin-top: 10px;
+}
+header a{ /* todo link do cabeçalho*/
   text-decoration: none;
-  color: black;
-  margin: 10px;
   text-align: center;
+  display: inline-block;
+  color: wheat;
+  margin: 0px 5px;
 }
 
-header a:hover{
+header a:hover{ /*transformação de cada link do cabeçalho*/
   text-decoration: underline;
-  color: #045EB7;
+  color: #000;
 }
 
-header p{
-  text-align: center;
-  margin
+header p{ /*tag de todo paragrafo do cabeçalho*/
+  display: inline-block;
+}
+.futuro{ /*imagem abaixo do cabeçalho*/
+  margin: 0 auto;
+  display: block;
+  width: 1100px;
+}
+
+.image-container { /*tag de toda a imagem com o link*/
+  position: relative;
+}
+.link-imagem{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 427px;
+    left: 30%;
+    width: 150px;
+    display: block;
+    text-align: center;
+    color: rgb(255, 1, 1);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-size: 25px;
+}
+.link-imagem:hover{
+  text-decoration: underline;
+}
+
+.semana-cursos{ /*container da semana OURO e os três cursos*/
+  overflow: hidden;
+  margin: 0px auto;
+}
+.introducao{ /*div da semana Ouro*/
+  box-shadow: 0px 1px 5px #00000052;
+  width: 400px;
+  margin: 10px 40px 5px 5px; 
+  display: inline-block;
+  float: left;
+  text-align:left;
+}
+.sub{ /*sub titulo semana Ouro*/
+  font-size:13px;
+}
+.tres{ /* tags referente aos três primeiros cursos*/
+  border-bottom: solid 3px #3b7cd2;
+}
+.tres h4{
+  font-size: 10px;
+  color: #3b7cd2;
+}
+.tres h2{
+  font-size: 13px;
+}
+.tres{
+  display: inline-block;
+  height: 300px;
+  
+}
+.ads{ /*tag do curso ADS*/
+  width: 170px;
+  height: 330px;
+  display: inline-block;
+  box-shadow:  0px 0px 7px 0px #00000073;
+  margin-left: 15px;
+}
+.Segurança{ /*tag do curso de segurança*/
+  width: 170px;
+  height: 330px;
+  display: inline-block;
+  box-shadow: 0px 0px 7px 0px #00000073;
+  margin-left: 15px;
+  text-align: left;
+}
+.sistemas{ /*tag do curso de sistema*/
+  width: 170px;
+  height: 330px;
+  display: inline-block;
+  box-shadow: 0px 0px 7px 0px #00000073;
+  margin-left: 15px;
+}
+.inscreva{ /*botao de inscreva-se - dentro de cada curso*/
+  text-decoration: none;
+  color: red;
+  margin-left: 20px;
+}
+.inscreva:hover{
+  text-decoration: underline;
+}
+.descontos{
+  height: 300px;
+  background-color: #045EB7;
+}
+.anos{
+
 }

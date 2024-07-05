@@ -5,7 +5,7 @@
 }
 
 body {
-background-image: linear-gradient(#9e31f5 , #000);
+  background: linear-gradient(135deg, #892bd4 -1%,#4c1975 38%,#340959 49%,#420f6c 71%,#601f95 100%);
 background-repeat: no-repeat;
 }
 .text1{
