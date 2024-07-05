@@ -144,6 +144,6 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
   height: 300px;
   background-color: #045EB7;
 }
-.anos{
-
+.img-curso{
+  display: inline-block;
 }
