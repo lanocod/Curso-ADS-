@@ -11,10 +11,10 @@
 */
 body{
   font-family: roboto;
-  background-color: rgb(195, 194, 194)
-  /*background-image: linear-gradient(138deg, rgba(20,92,164,1) 0%, rgba(1,1,1,1) 58%, rgba(0,0,0,1) 71%, rgba(20,92,164,1) 94%);
-  background-attachment: fixed;*/
+  background-color: rgb(195, 194, 194);
+  /*background-image: linear-gradient(138deg, rgba(20,92,164,1) 0%, rgba(1,1,1,1) 58%, rgba(0,0,0,1) 71%, rgba(20,92,164,1); 94%);  background-attachment: fixed;*/
 
+  
 }
 header{ 
   padding: 0px;
@@ -82,60 +82,91 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
 
 .semana-cursos{ /*container da semana OURO e os três cursos*/
   overflow: hidden;
-  margin: 0px auto;
+  margin: 30px 0px 20px 50px;
+  height: 800px;
 }
 .introducao{ /*div da semana Ouro*/
-  box-shadow: 0px 1px 5px #00000052;
-  width: 400px;
-  margin: 10px 40px 5px 5px; 
+  box-shadow: 0px 0px 5px #000000a6;
+  width: 450px;
+  height: 665px;
   display: inline-block;
   float: left;
   text-align:left;
-}
-.sub{ /*sub titulo semana Ouro*/
-  font-size:13px;
-}
-.tres{ /* tags referente aos três primeiros cursos*/
+  padding: 10px;
+  border: 1px solid black;
   border-bottom: solid 3px #3b7cd2;
 }
+.introducao h1{ /*edição do título do campo OURO*/
+  font-size: 50px;
+  font-family: Baskervville SC;
+}
+.introducao strong{ /*tag para a palavra E-tech*/
+  color: #3b7cd2;
+}
+.listas{
+  font-size: 20px;
+  text-align: left;
+}
+.sub{ /*sub titulo semana Ouro*/
+  font-size: 20px;
+}
+.lista-ouro{
+  margin-top: 12px;
+}
+
+.tres{ /* tags referente aos três primeiros cursos*/
+  border-bottom: solid 3px #3b7cd2;
+  
+}
 .tres h4{
-  font-size: 10px;
+  font-size: 15px;
   color: #3b7cd2;
 }
 .tres h2{
-  font-size: 13px;
+  font-size: 25px;
+  text-align: left;
 }
 .tres{
   display: inline-block;
   height: 300px;
-  
+}
+.tres p{
+  display: inline;
+  font-size: 25px;
 }
 .ads{ /*tag do curso ADS*/
-  width: 170px;
-  height: 330px;
+  width: 300px;
+  height: 685px;
   display: inline-block;
   box-shadow:  0px 0px 7px 0px #00000073;
   margin-left: 15px;
 }
 .Segurança{ /*tag do curso de segurança*/
-  width: 170px;
-  height: 330px;
+  width: 300px;
+  height: 685px;
   display: inline-block;
   box-shadow: 0px 0px 7px 0px #00000073;
   margin-left: 15px;
   text-align: left;
 }
 .sistemas{ /*tag do curso de sistema*/
-  width: 170px;
-  height: 330px;
+  width: 300px;
+  height: 685px;
   display: inline-block;
   box-shadow: 0px 0px 7px 0px #00000073;
   margin-left: 15px;
 }
+.texto-curso{
+  padding: 15px;
+  margin: 15px 0px 0px 30px;
+}
 .inscreva{ /*botao de inscreva-se - dentro de cada curso*/
   text-decoration: none;
   color: red;
-  margin-left: 20px;
+  display: block;
+  font-size: 40px;
+  background-color: #00000063;
+  text-align: center;
 }
 .inscreva:hover{
   text-decoration: underline;
@@ -143,7 +174,17 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
 .descontos{
   height: 300px;
   background-color: #045EB7;
+  height: 700px;
 }
-.img-curso{
+.depoimento{
+  height: 419px;
+  width: 360px;
+  border: 1px solid rgba(0, 0, 0, 0.342);
   display: inline-block;
+  box-shadow:  1px 3px 10px rgb(0 0 0 / 35%);
+  margin: 8px;
+}
+.container-depoimentos{
+  margin: 0 auto;
+  display: block;
 }

@@ -6,7 +6,7 @@
 
 body {
   background: linear-gradient(135deg, #892bd4 -1%,#4c1975 38%,#340959 49%,#420f6c 71%,#601f95 100%);
-background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 .text1{
   text-align: center;
@@ -47,7 +47,6 @@ p:hover a{
   text-decoration:underline;
 }
 h1{
-  margin: center;
   color: #fff;
  }
 .agosto{
@@ -69,7 +68,7 @@ h1{
 .texto{
   float: left;
   width: 400px;
-  text-align: auto;
+  text-align: center;
   display: inline-block;
   margin-top: 80px;
   margin-left: 80px;
@@ -77,13 +76,13 @@ h1{
 .img{
   display: inline-block;  
   border-radius: 80%;
-  height: 300px;
-  margin-top: 110px;
+  height: 406px;
+  margin-top: 190px;
   margin-left: 20px;
   box-shadow: -7px -3px violet;
 }
 .imagem{
-  margin:  auto;
+  margin: 0 auto;
   width: 600px;
 }
 
@@ -91,8 +90,8 @@ h1{
   color: #f3ab49;
 }
 .container{
-  height: 98vh;
-  margin: auto;
+  height: 100%;
+  margin:0 auto;
   overflow: hidden;
 }
 .confira{
