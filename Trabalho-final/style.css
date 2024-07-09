@@ -6,12 +6,16 @@
   font-family: Roboto;
   src: url(roboto.ttf) format(TrueType);
 }
+@font-face {
+  font-family: Bungee;
+  src: url(Bungee-Regular.ttf) format(TrueType);
+}
 /*
 #045EB7
 */
 body{
   font-family: roboto;
-  background-color: rgb(195, 194, 194);
+  background-color: rgb(255, 255, 255);
   /*background-image: linear-gradient(138deg, rgba(20,92,164,1) 0%, rgba(1,1,1,1) 58%, rgba(0,0,0,1) 71%, rgba(20,92,164,1); 94%);  background-attachment: fixed;*/
 
   
@@ -30,8 +34,8 @@ header{
   margin: 0 auto;
 }
 
-.listas{ /*tag de cada link do cabeçalho*/
-  margin-left: 70px;
+.listas-cabeçalho{ /*tag de cada link do cabeçalho*/
+  margin-left: 50px;
 }
 .logo{ /*tag imagem do cabeçaho*/
   width: 40px;
@@ -50,31 +54,34 @@ header a:hover{ /*transformação de cada link do cabeçalho*/
   text-decoration: underline;
   color: #000;
 }
-
+.img-topo{
+  display: block;
+  text-align: right;
+  
+}
 header p{ /*tag de todo paragrafo do cabeçalho*/
   display: inline-block;
 }
 .futuro{ /*imagem abaixo do cabeçalho*/
   margin: 0 auto;
   display: block;
-  width: 1100px;
+  width: 100%;
 }
 
 .image-container { /*tag de toda a imagem com o link*/
   position: relative;
 }
 .link-imagem{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Bungee;
     position: absolute;
-    top: 427px;
-    left: 30%;
-    width: 150px;
+    top: 580px;
+    left: 8%;
+    width: 533px;
     display: block;
     text-align: center;
     color: rgb(255, 1, 1);
-    background-color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
-    font-size: 25px;
+    font-size: 35px;
 }
 .link-imagem:hover{
   text-decoration: underline;
@@ -83,10 +90,9 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
 .semana-cursos{ /*container da semana OURO e os três cursos*/
   overflow: hidden;
   margin: 30px 0px 20px 50px;
-  height: 800px;
 }
 .introducao{ /*div da semana Ouro*/
-  box-shadow: 0px 0px 5px #000000a6;
+ box-shadow:  0px 0px 7px 0px #00000073;
   width: 450px;
   height: 665px;
   display: inline-block;
@@ -98,14 +104,16 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
 }
 .introducao h1{ /*edição do título do campo OURO*/
   font-size: 50px;
-  font-family: Baskervville SC;
+  font-family: 'Baskervville SC';
 }
 .introducao strong{ /*tag para a palavra E-tech*/
   color: #3b7cd2;
 }
 .listas{
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
+  margin-top: 12px;
+  margin-left: 50px;
 }
 .sub{ /*sub titulo semana Ouro*/
   font-size: 20px;
@@ -121,10 +129,13 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
 .tres h4{
   font-size: 15px;
   color: #3b7cd2;
+  text-align: left;
+  padding-left: 10px;
 }
 .tres h2{
   font-size: 25px;
   text-align: left;
+  padding: 5px;
 }
 .tres{
   display: inline-block;
@@ -165,26 +176,121 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
   color: red;
   display: block;
   font-size: 40px;
-  background-color: #00000063;
+  background-color: #ffffff34;
   text-align: center;
+  margin-top: 27px;
 }
 .inscreva:hover{
   text-decoration: underline;
 }
 .descontos{
-  height: 300px;
   background-color: #045EB7;
-  height: 700px;
+  color: #fff;
+  
+}
+.descontos h2{
+  text-align: center;
+  font-size: 30px;
+  font-family: bungee;
+  padding: 10px;
+}
+.descontos h4{
+  text-align: center;
+  font-size: 20px;
+  font-family: roboto;
+  padding: 10px;
+  color:#3b7cd2;
+}
+#depoimentos-relatorios{
+  background-color: #fff;
+}
+.img-beneficios{
+  border-radius: 15%;
+  display: block;
+  margin-top: 50px;
+}
+.beneficios-descontos p{
+  display: inline-block;
+   width: 354px;
+   height: 96px;
+   text-align: center;
+}
+.beneficios-descontos{
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.beneficio1{
+  float: left;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.inscreva1{
+  text-decoration: none;
+  color: red;
+  display: block;
+  background-color: #ffffff34;
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.titulo-depoimentos{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 50px;
+  padding: 8px;
+}
+#depoimentos-relatorios h3{
+  text-transform: uppercase;
+  margin: 4px;
+  font-size: 15px;
+}
+.diferenca{
+  color: #045EB7;
+}
+.titulo-e-sub-depoimentos{
+  text-align: center;
 }
 .depoimento{
-  height: 419px;
-  width: 360px;
+  height: 400px;
+  width: 350px;
   border: 1px solid rgba(0, 0, 0, 0.342);
   display: inline-block;
   box-shadow:  1px 3px 10px rgb(0 0 0 / 35%);
   margin: 8px;
+  padding: 10px;
+  border-bottom: solid 3px #3b7cd2;
 }
 .container-depoimentos{
-  margin: 0 auto;
   display: block;
+  margin-left: 150px;
+}
+.depoimento p {
+  margin-top: 20px;
+  padding: 12px;
+  text-align: justify;
+}
+.depoimento{
+  margin: 20px 15px;
+}
+.nome-depoimento{
+  color: #3b7cd2;
+  text-align: center;
+  border-radius: 18px;
+}
+.empresa-depoimento{
+  text-align: center;
+}
+.startup-depoimento{
+  text-decoration: none;
+  color: #045EB7;
+}
+.startup-depoimento:hover{
+  text-decoration: underline;
+  color: #000;
+  text-
+}
+.maria{
+  padding-top: 28px;
+  padding-bottom: 0px;
 }

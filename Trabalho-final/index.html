@@ -9,11 +9,11 @@
 <body>
     <header>
         <div class="cabeçalho">
-          <img src="/Logo/logo-sem-fundo .png" alt="logo E-Tech" class="logo">
-          <p class="listas">
-            <a href="#">Cursos</a>
-            <a href="#">Descontos</a>
-            <a href="#">Depoimentos</a>
+          <img src="/Logo/logo-sem-fundo.png" alt="logo E-Tech" class="logo" id="topo">
+          <p class="listas-cabeçalho">
+            <a href="#cursos1">Cursos</a>
+            <a href="#beneficios1">Benefícios</a>
+            <a href="#depoimentos-relatorios">Depoimentos</a>
             <a href="#">Quem Somos</a>
             <a href="#">Contato</a>
             <a href="#">Empresas parceiras</a>
@@ -22,11 +22,13 @@
         </div>
     </header>
     <main>
-      <div class="imagem-container">
-        <img src="seu futo agora (2).png" alt="seu futuro hoje." class="futuro">
-        <a href="inscreva.html" class="link-imagem">Inscreva-se</a>
-    </div>
-      <section id="cursos1">
+      <section>
+        <div class="imagem-container">
+          <img src="seu-fut-agora.png" alt="seu futuro hoje." class="futuro">
+          <a href="inscreva.html" class="link-imagem">Inscreva-se</a>
+        </div>
+      
+      <div id="cursos1">
         <div class="semana-cursos">
           <div class="introducao">
           <h1 class="ouro">Semana de Ouro na <strong>E-tech</strong></h1>
@@ -41,7 +43,7 @@
           <div class="cursos">
            
             <div class="Segurança tres">
-                <img src="/imagens cursos/img3-ai300px.jpg" alt="estudantes de segurança">
+                <img src="/imagens-cursos/img3-ai300px.jpg" alt="estudantes de segurança">
                 <h4>E-TECH</h4>
                 <h2>Segurança da informação na internet.</h2>
 
@@ -64,7 +66,7 @@
             </div>
 
              <div class="sistemas tres">
-                <img src="/imagens cursos/img300px1.png" alt="estudnda de sistemas"> 
+                <img src="/imagens-cursos/img300px1.png" alt="estudnda de sistemas"> 
                 <h4>E-TECH</h4>
                 <h2>Sistemas operacionais e desenvolvimento web.</h2>
                     <div class="texto-curso">
@@ -87,9 +89,9 @@
               
               
               <div class="ads tres">
-                  <img src="/imagens cursos/img4-300px.jpg" alt="jovem analisando sistemas" class="img-ads">
+                  <img src="/imagens-cursos/img4-300px.jpg" alt="jovem analisando sistemas" class="img-ads">
                   <h4>E-TECH</h4>
-                    <h2>Analise e desenvolvimento de sitemas.</h2>
+                    <h2>Ánalise e Desenvolvimento de sitemas.</h2>
 
                     <div class="texto-curso">
 
@@ -113,27 +115,74 @@
               </div> <!-- fim da div ads tres-->
             </div> <!--fim da div cursos-->
         </div> <!--fim das divs-->
-      </section>
-        <section class="descontos">
+      </div>
+        <div class="beneficios-descontos" id="beneficios1">
+         <div class="descontos">
+            <h2>Entre para o mundo Tech e tenha diversos benefícios exclusivos</h2>
+            <h4>descontos exclusivos e benefícios únicos</h4>
+            <div class="beneficio1">
+              <img src="cartao-estudante.jpg" alt="cartão de estudante" class="img-beneficios">
+              <p>Acesso ao vale transporte com desconto de estudante!</p>
+              <img src="combo-elementos-cinemark1.jpg" alt="Combo cinema" class="img-beneficios">
+              <p>Desconto e acessos exclusivos em estreis nos melhores cinemas da cidade</p>
+            </div><!--fim da div beneficios1-->
+            <div class="beneficio2">
+              <img src="cupom-descontos.png" alt="cartão de estudante" class="img-beneficios">
+              <p>Cupons de descontos e vale-presentes exclusivo para os melhores alunos so semestre!</p>
+              <img src="desconto-farmacia.jpg" alt="Desconto em farmácias" class="img-beneficios">
+              <p>Desconto nas melhores farmácias da cidade</p>
+            </div> <!--fim da div beneficios2-->
+            <a href="inscreva1.html" class="inscreva">Inscreva-se</a>
+            <abbr title="Voltar ao topo">
+              <a href="#topo">
+                <img src="seta-cima.png" alt="seta de voltar" id="topo" class="img-topo">
+              </a>
+            </abbr>
+        </div> <!--fim da div descontos-->
+      </div>
 
-       
-        <div class="descontos">
-          <h2>Volte as aulas com a E-Tech.</h2>
-          <h4>descontos exclusivos e renegociação facilitada</h4>
-          <img src="seu-futuro.png" alt="">
-        </div>
-        </section>
-        <section>
-          <h2>Alguns depoimentos de alunos</h2>
-          <div class="container-depoimentos">
-            <div class="depoimento">1</div>
-            <div class="depoimento">2</div>
-            <div class="depoimento">3</div>
-            <div class="depoimento">4</div>
-            <div class="depoimento">5</div>
-            <div class="depoimento">6</div>
+        <div id="depoimentos-relatorios">
+          <div class="titulo-e-sub-depoimentos">
+            <h2 class="titulo-depoimentos">Depoimentos</h2>
+            <h3 >Alguns alunos fizeram questão de passar por aqui e deixar um recado, hojefazem a <strong class="diferenca">diferença</strong>!</h3>
           </div>
-        </section>
+          <div class="container-depoimentos">
+            <div class="depoimento">
+              <h2 class="nome-depoimento">Carlos Augusto</h2>
+              <h4 class="empresa-depoimento">Fundador da startup <a href="#" class="startup-depoimento">Brasil+</a></h4>
+              <p class>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet minima perferendis quis magni iusto tempore et quasi tenetur odit vitae, laborum quas harum eius adipisci dolor aut repellendus cum necessitatibus!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maiores doloremque minima, necessitatibus possimus modi blanditiis iure! Numquam maxime inventore atque, commodi fugit rem at, aperiam ab ratione nisi asperiores.
+              </p>
+            </div>
+            <div class="depoimento">
+              <h2 class="nome-depoimento">João Marea</h2>
+              <h4 class="empresa-depoimento">Ex-aluno Fundador da startup <a href="#" class="startup-depoimento">DataByte</a></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, cum voluptatibus officia aliquid quisquam reprehenderit alias suscipit molestiae possimus sed. Odit vero in expedita alias eligendi esse illum quaerat. Facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quae iusto tenetur quas vitae. Libero alias sit nostrum, nemo iure corrupti inventore porro ratione corporis magni laborum obcaecati earum impedit.</p>
+            </div>
+            <div class="depoimento maria">
+              <h2 class="nome-depoimento">Maria Lúcia</h2>
+              <h4 class="empresa-depoimento">Ex-aluna e fundador da <a href="#" class="startup-depoimento">Rebooted</a></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, cum voluptatibus officia aliquid quisquam reprehenderit alias suscipit molestiae possimus sed. Odit vero in expedita alias eligendi esse illum quaerat. Facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quae iusto tenetur quas vitae. Libero alias sit nostrum, nemo iure corrupti inventore porro ratione corporis magni laborum obcaecati earum impedit.</p>
+            </div>
+            <div class="depoimento"> <h2 class="nome-depoimento">Bruna Lopes</h2>
+              <h4 class="empresa-depoimento">Ex-aluna</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, cum voluptatibus officia aliquid quisquam reprehenderit alias suscipit molestiae possimus sed. Odit vero in expedita alias eligendi esse illum quaerat. Facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quae iusto tenetur quas vitae. Libero alias sit nostrum, nemo iure corrupti inventore porro ratione corporis magni laborum obcaecati earum impedit.</p></div>
+            <div class="depoimento"> <h2 class="nome-depoimento">Carlos Alves</h2>
+              <h4 class="empresa-depoimento">Ex-aluno e fundador da <a href="#" class="startup-depoimento">CloudCore</a></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, cum voluptatibus officia aliquid quisquam reprehenderit alias suscipit molestiae possimus sed. Odit vero in expedita alias eligendi esse illum quaerat. Facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quae iusto tenetur quas vitae. Libero alias sit nostrum, nemo iure corrupti inventore porro ratione corporis magni laborum obcaecati earum impedit.</p>
+            </div>
+            <div class="depoimento"> <h2 class="nome-depoimento">Liliana Neves</h2>
+              <h4 class="empresa-depoimento">Ex-aluna e fundador da <a href="#" class="startup-depoimento">ExitCode</a></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, cum voluptatibus officia aliquid quisquam reprehenderit alias suscipit molestiae possimus sed. Odit vero in expedita alias eligendi esse illum quaerat. Facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quae iusto tenetur quas vitae. Libero alias sit nostrum, nemo iure corrupti inventore porro ratione corporis magni laborum obcaecati earum impedit.</p>
+            </div>
+          </div>      
+           <abbr title="Voltar ao topo">
+            <a href="#topo">
+              <img src="seta-cima.png" alt="seta de voltar" id="topo" class="img-topo">
+            </a>
+          </abbr>
+        </div>
+      </section>
     </main>
     <footer></footer>
 </body>
