@@ -58,9 +58,9 @@ header a:hover{ /*transformação de cada link do cabeçalho*/
   color: #000;
 }
 .img-topo{
-  display: block;
-  text-align: right;
-  
+  position: fixed;
+  top: 94%;
+  left: 97%;
 }
 header p{ /*tag de todo paragrafo do cabeçalho*/
   display: inline-block;
@@ -89,7 +89,9 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
 .link-imagem:hover{
   text-decoration: underline;
 }
-
+.cursos{
+  margin-left: 300px;
+}
 .semana-cursos{ /*container da semana OURO e os três cursos*/
   overflow: hidden;
   margin: 30px 0px 20px 50px;
@@ -97,7 +99,7 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
 .introducao{ /*div da semana Ouro*/
  box-shadow:  0px 0px 7px 0px #00000073;
   width: 450px;
-  height: 665px;
+  height: 630px;
   display: inline-block;
   float: left;
   text-align:left;
@@ -127,7 +129,8 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
 
 .tres{ /* tags referente aos três primeiros cursos*/
   border-bottom: solid 3px #3b7cd2;
-  
+  float: left;
+  margin-left: 400px;
 }
 .tres h4{
   font-size: 15px;
@@ -150,14 +153,14 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
 }
 .ads{ /*tag do curso ADS*/
   width: 300px;
-  height: 685px;
+  height: 650px;
   display: inline-block;
   box-shadow:  0px 0px 7px 0px #00000073;
   margin-left: 15px;
 }
 .Segurança{ /*tag do curso de segurança*/
   width: 300px;
-  height: 685px;
+  height: 650px;
   display: inline-block;
   box-shadow: 0px 0px 7px 0px #00000073;
   margin-left: 15px;
@@ -165,7 +168,7 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
 }
 .sistemas{ /*tag do curso de sistema*/
   width: 300px;
-  height: 685px;
+  height: 650px;
   display: inline-block;
   box-shadow: 0px 0px 7px 0px #00000073;
   margin-left: 15px;
@@ -176,15 +179,15 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
 }
 .inscreva{ /*botao de inscreva-se - dentro de cada curso*/
   text-decoration: none;
-  color: red;
+  color: #000;
   display: block;
-  font-size: 40px;
+  font-size: 35px;
   background-color: #ffffff34;
   text-align: center;
-  margin-top: 27px;
 }
 .inscreva:hover{
   text-decoration: underline;
+  color: red;
 }
 .descontos{
   background-color: #045EB7;
@@ -271,6 +274,7 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
   margin: 8px;
   padding: 10px;
   border-bottom: solid 3px #3b7cd2;
+  float: left;
 }
 .container-depoimentos{
   display: block;
@@ -300,8 +304,4 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
   text-decoration: underline;
   color: #000;
   text-
-}
-.maria{
-  padding-top: 28px;
-  padding-bottom: 0px;
 }
