@@ -7,10 +7,10 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>E-Tech</title>
 </head>
-<body>
+<body class="body-inscreva">
     <header>
         <div class="cabeçalho">
-          <img src="logo-sem-fundo .png" alt="logo E-Tech" class="logo">
+          <img src="/Logo/logo-sem-fundo.png" alt="logo E-Tech" class="logo">
           <p class="listas">
             <a href="index.html">Cursos</a>
             <a href="index.html">Descontos</a>
@@ -22,6 +22,60 @@
           </p>
         </div>
     </header>
-    <footer></footer>
-</body>
-</html>
+    <section>
+      <body>
+        <img class="image" src="/Logo/logo-sem-fundo.png" alt="logo etech">
+        <div class="box">
+          <form action="">
+            <fieldset>
+              <legend><b>Inscreva-se</b></legend>
+              <br>
+              <div class="inputBox">
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+                <label for="nome" class="labelInput">Nome completo</label>
+              </div>
+              <br><br>
+              <div class="inputBox">
+                <input type="text" name="email" id="email" class="inputUser" required>
+                <label for="email" class="labelInput">Email</label>
+              </div>
+              <br><br>
+              <div class="inputBox">
+                <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                <label for="telefone" class="labelInput">Telefone</label>
+              </div>
+              <br><br>
+              <p>Modalodade:</p>
+              <input type="radio" id="feminino" name="genero" value="feminino">
+              <label for="feminino">On-line</label>
+              <input type="radio" id="masculino" name="genero" value="masculino">
+              <label for="masculino">Híbrido</label>
+              <input type="radio" id="outro" name="genero" value="outro">
+              <label for="outro">Presencial</label>
+              <br><br>
+              <div class="InputBox">
+                <label for="data de nascimento"><b>Data de Nascimento</b></label>
+                <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required>
+              </div>
+              <br><br>
+              <div class="inputBox">
+                <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                <label for="cidade" class="labelInput">Cidade</label>
+              </div>
+              <br><br>
+              <div class="inputBox">
+                <input type="text" name="estado" id="estado" class="inputUser" required>
+                <label for="estado" class="labelInput">Estado</label>
+              </div>
+              <br><br>
+              <div class="inputBox">
+                <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                <label for="endereco" class="labelInput">Endereço</label>
+              </div>
+              <br><br>
+              <input class="submit" type="submit" name="submit" id="submit">
+            </fieldset>
+          </form>
+        </div>
+      </body>
+      </html>

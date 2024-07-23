@@ -254,7 +254,7 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
   font-size: 50px;
   padding: 8px;
 }
-#depoimentos-relatorios h3{
+.depoimentos-relatorios1 h3{
   text-transform: uppercase;
   margin: 4px;
   font-size: 15px;
@@ -304,4 +304,224 @@ header p{ /*tag de todo paragrafo do cabeçalho*/
   text-decoration: underline;
   color: #000;
   text-
+}
+/*INICIO PARTE JEFFERSON*/
+.cabecalhojef{
+  background-image: url(imagens-curso/banner.jpg);
+	display: block;
+	padding: 20px;
+	border-bottom: solid 1px #000;
+  
+}
+.cabecalhojef img{
+	/*height: 25px;
+	width: 25px;*/
+}
+.containerjef{
+  display: inline-block
+  background-image: url(imagens-curso/banner.jpg);
+}
+
+.titulojef{
+	font-size: 35px;
+	font-weight: bold;
+	padding-top: 30px;
+	margin-right: 700px;
+  display: block;
+}
+.formasjef{
+	margin-right: 700px;
+}
+.formasjef  h4{
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0px 0px;
+}
+
+.container2jef{
+	font-size: 30px;
+	color: #fff;
+	padding: 10px 200px 80px 350px;
+	background-color: #045eb7;
+}
+.tabela1jef{
+	width: 80%;
+}
+.linhajef{
+	background-color: #3b7cd2;
+	color: #fff;
+}
+.tabela1jef h2{
+	color: #fff;
+	padding: 4px;
+	font-size: 45px;
+	text-transform: uppercase;
+}
+td{
+	padding:10px;
+	border-bottom: solid 2px #fff;
+}
+.container3jef{
+	background-color: #fff;
+	padding-bottom: 50px;
+	display: inline-block;
+	overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+.container3jef img{
+	background-color: #000;
+	margin-top: 20px;
+	padding: 20px 70px ;
+	height: 80px;
+	width: 80px;
+	border-radius: 10px 10px 10px 10px;
+}
+.contatosjef{
+	float: left;
+	margin-left: 212px;
+}
+.falejef{
+	font-size: 30px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+.container4jef{
+	background-color: #045eb7;
+	text-align: center;
+	margin: 2px auto;
+	overflow: hidden;
+}
+.quemsomosjef{
+	padding: 0px 150px;
+}
+.colunajef{	
+	margin: 40px 100px;
+	width: 280px;
+	padding: 0px 20px 0px 5px;
+	float: right;
+}
+.container4jef h1{
+	font-size: 60px;
+	color: #fff;
+	margin-bottom: 20px;
+	padding: 0px 0px 0px 0px;
+}
+.container4jef h3{
+	font-size: 30px;
+	color: #fff;
+	border-bottom: solid 3px #fff;
+}
+.container4jef p{
+	font-size: 20px;
+	font-style: italic;
+	color: #000;}
+
+/*FIM PARTE JEFFERSON*/
+/* INICIO PARTE GIOVANE */
+.banner{ position: relative;
+width: 100%;
+
+background: url("imagens/etech.mensagem.jpg") no-repeat center
+center;
+background-size: cover;
+} 
+.message{
+background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(17, 54,
+71));
+border-radius: 8px;
+padding: 15px;
+width: 350px;
+text-align: center;
+font-size: 15px;
+color: whitesmoke;
+letter-spacing: 1px;
+position: absolute;
+top: -309px;
+left: 60%;
+margin: 0px;
+}
+
+/*stilo do formulário*/
+.box{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  border-radius: 15px;
+  width: 20%;
+  margin-top: 100px;
+}
+.fildset{
+  border: 3px solid dodgerblue;
+}
+.legend{
+  border: 1px solid dodgerblue;
+  padding: 10px;
+  text-align: center;
+  background-color: dodgerblue;
+  border-radius: 8px;
+}
+.inputBox{
+  position: relative;
+}
+.inputUser{
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+}
+.labelInput{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
+  top: -20px;
+  font-size: 12px;
+  color: dodgerblue;
+}
+.image{
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+.submit{
+  color: #000000e8;;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 20px;
+  border: none;
+  padding: 10px 25px;
+  text-align: center;
+  border-radius: 8px;
+  width: 100%;
+}
+.body-inscreva{
+  background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+}
+.empresas-parceiras-giovane{
+  text-align: center;
+  font-family: 'Roboto';
+}
+.img-parceiras{
+  width: 11%;
+  display: inline-block;
+}
+footer{
+  width: 100%;
+  background-color: #3b7cd2;
+  color: rgb(6, 53, 95);
+  text-align: center;
+  font-family: Bungee;
 }
