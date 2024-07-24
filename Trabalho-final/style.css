@@ -33,7 +33,7 @@ nav{
   margin: 0 auto;
 }
 .cabeçalho{ /*tag do cabeçalho*/
-  width: 900px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -509,6 +509,7 @@ margin: 0px;
 }
 .body-inscreva{
   background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+
 }
 .empresas-parceiras-giovane{
   text-align: center;
@@ -524,4 +525,7 @@ footer{
   color: rgb(6, 53, 95);
   text-align: center;
   font-family: Bungee;
+}
+/* começa aqui a edução da galeria*/
+.img-galeria{
 }
